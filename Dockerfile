@@ -1,4 +1,4 @@
-FROM debian:9.6-slim
+FROM debian:stretch-slim
 
 LABEL "com.github.actions.name"="Assignee to reviewer"
 LABEL "com.github.actions.description"="Automatically create review requests based on assignees"
